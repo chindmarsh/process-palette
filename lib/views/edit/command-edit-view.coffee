@@ -354,6 +354,9 @@ class CommandEditView extends View
               @td 'lineNo', {class: 'text-highlight first-column'}
               @td 'Line number at cursor.'
             @tr =>
+              @td 'columnNo', {class: 'text-highlight first-column'}
+              @td 'Column number at cursor.'
+            @tr =>
               @td {colspan: 2}, =>
                 @h3 'Output Variables', {class: 'text-highlight'}
             @tr =>

@@ -318,6 +318,7 @@ selection | Currently selected text.
 word | Word under cursor.
 line | Line at cursor.
 lineNo | Line number at cursor.
+columnNo | Column number at cursor.
 
 **Input from user**
 
